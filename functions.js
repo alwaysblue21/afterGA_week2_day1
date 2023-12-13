@@ -37,6 +37,7 @@ const helloWorld2 = function(){
 
 helloWorld2()
 
+// arrow functions
 const helloWorld3 = () => {
     console.log("Hello World");
   };
