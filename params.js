@@ -33,3 +33,18 @@ addNums(5,6)
  }
 
  addAndMulti(1,2,3)
+
+ ///////////////
+
+ function printIceCream(flavor){
+    console.log(`The flavor is ${flavor}`)
+}
+
+printIceCream("Chocolate")
+
+function printIceCream(flavor = "Vanilla"){
+    console.log(`The flavor is ${flavor}`)
+}
+
+printIceCream("Chocolate")
+printIceCream()
